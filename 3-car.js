@@ -29,7 +29,7 @@ car1.drive(100);
 console.log(car1.odometer); // 100
 console.log(car1.tank);     // 6 (100 miles / 25 mpg = 4 gallons used)
 
-console.log(car1.drive(300));
-// "I ran out of fuel at 350 miles!" (used up all fuel)
+// console.log(car1.drive(300));
+// // "I ran out of fuel at 350 miles!" (used up all fuel)
 
-console.log(car1.tank); // 0
+// console.log(car1.tank); // 0
