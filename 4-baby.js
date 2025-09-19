@@ -66,6 +66,6 @@ const jaded = new Song('Jaded', 'Aerosmith')
 const playlist = new Playlist()
 playlist.add(heyJude)
 playlist.add(jaded)
-playlist.play() // Hey Jude The Beatles started to play
-playlist.next() // Hey Jude The Beatles stopped Jaded Aerosmith started to play
-playlist.stop() // Jaded Aerosmith stopped
+playlist.play() // Hey Jude started to play
+playlist.next() // Hey Jude stopped Jaded started to play
+playlist.stop() // Jaded stopped
