@@ -53,7 +53,7 @@ Playlist.prototype.stop = function () {
 Playlist.prototype.next = function () {
     if (this.songs.length < 1) return
     this.stop()
-    this.currentIndex = (this.index++) % this.songs.length
+    this.index = (this.index++) % this.songs.length
     this.play()
 }
 
