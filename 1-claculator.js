@@ -1,19 +1,19 @@
-function Calculator() {
-    this.add = (a, b) => {
-        return a + b
-    }
+function Calculator() { }
 
-    this.subtract = (a, b) => {
-        return a - b
-    }
+Calculator.prototype.add = (a, b) => {
+    return a + b
+}
 
-    this.multiply = (a, b) => {
-        return a * b
-    }
+Calculator.prototype.subtract = (a, b) => {
+    return a - b
+}
 
-    this.devide = (a, b) => {
-        return a / b
-    }
+Calculator.prototype.multiply = (a, b) => {
+    return a * b
+}
+
+Calculator.prototype.devide = (a, b) => {
+    return a / b
 }
 
 const calculator = new Calculator()
